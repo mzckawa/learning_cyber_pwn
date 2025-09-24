@@ -38,3 +38,7 @@ Also, I learned that when "bg" is passed without any arguments, the shell unders
 On top of that, I learned that when you write a command on the prompt and does not wait for another prompt line to appear before writing the next command, your are interacting with the first command, not with the shell, which may or may not make sense! 
 
 In the "Process Exit Codes" challenge, I learned that we type $? because this is how the shell is going to recognize that we want the error code of the last command executed. If we type echo ?, the shell will look for one-charachter file names and and, if it doesn't match anything, it will print "?".
+
+# September 23th, 2025. 
+
+Today, I learned that operating systems have many "users" and that they don't necessarily refer to real people using the machine. Also, I learned about the importance of the root user, and solved a challenge that used an old way off gaining root privileges, the "su" command. 
