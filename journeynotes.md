@@ -1,4 +1,4 @@
-# September 13th, 2025 
+## September 13th, 2025 
 
 Just learned about file globbing. I learned that * is a wildcard for a non-especified number of characters, and it can be any of them (including nothing), while ? substitutes only one character. Some interesting things that tricked me were:
 
@@ -16,7 +16,7 @@ Also, a really great tip from the plataform regarded the use of ! and ^. They cl
 
 Lastly, I initiated the Processes and Jobs module and did its first challenge, Listing Processes. That was my first contact with the topic. It was really beautiful to see the processes list. That's some exciting journey! 
 
-# September 15th, 2025
+## September 15th, 2025
 
 In the "killing processes" module, I learned that the pgrep command allows makes the terminal show only the PID number of the process that you're looking for. The argument -f allows you to search for the PID using the path name, not the comm, and the argument -a allows you to see the string that the pregp command matched with. Also, I learned that "comm" means "command name" and, in Linux, is a short name - not longer than 15 characters - that the kernel gives to the process. 
 
@@ -39,6 +39,9 @@ On top of that, I learned that when you write a command on the prompt and does n
 
 In the "Process Exit Codes" challenge, I learned that we type $? because this is how the shell is going to recognize that we want the error code of the last command executed. If we type echo ?, the shell will look for one-charachter file names and and, if it doesn't match anything, it will print "?".
 
-# September 23th, 2025. 
+## September 23th, 2025. 
 
 Today, I learned that operating systems have many "users" and that they don't necessarily refer to real people using the machine. Also, I learned about the importance of the root user, and solved a challenge that used an old way off gaining root privileges, the "su" command. 
+
+## October 15th, 2025.
+Today, I learned abou the difference between how su and sudo give root privileges, and finished the module "Untangling users" (Linux Luminarium).
