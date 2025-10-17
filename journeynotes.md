@@ -44,4 +44,10 @@ In the "Process Exit Codes" challenge, I learned that we type $? because this is
 Today, I learned that operating systems have many "users" and that they don't necessarily refer to real people using the machine. Also, I learned about the importance of the root user, and solved a challenge that used an old way off gaining root privileges, the "su" command. 
 
 ## October 15th, 2025.
+
 Today, I learned abou the difference between how su and sudo give root privileges, and finished the module "Untangling users" (Linux Luminarium).
+
+## October 17th, 2025. 
+
+Today, I started learning about Access Control, and watched the "Access Control: Introduction" video, the first one from the Perceiving Permissions module. I learned the difference between authorization (what can you do) and autentication (who are you), reflected about risks, that is, the probability of something bad happening and about how the access control mechanisms may prevent people from being found guilty for something insecure they didn't do on purpose.
+
