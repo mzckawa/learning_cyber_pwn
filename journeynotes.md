@@ -51,3 +51,9 @@ Today, I learned abou the difference between how su and sudo give root privilege
 
 Today, I started learning about Access Control, and watched the "Access Control: Introduction" video, the first one from the Perceiving Permissions module. I learned the difference between authorization (what can you do) and autentication (who are you), reflected about risks, that is, the probability of something bad happening and about how the access control mechanisms may prevent people from being found guilty for something insecure they didn't do on purpose.
 
+## October 18th, 2025.
+
+Today, I watched the video "Access Control: Modeling Access Control", also from the "Perceiving Permissions" module. I learned the concepts os subjects (things in the system that can act), objects (things in the system that are acted upon) and rights (what the subjects can do to the objects). What is considered subject or object (or both) depends on each system, and a subject may have different rights upon different objects. 
+Also, an interesting thing to reflect upon was that, for the system, we are not the subject; rather, subjects are processes, and files are objects.
+At this module, we are going to explore the following rights: read, write, execute, append (it only allows you to add things to the file, but not to change anything that came before it, which may help prevent risks), own (allows you to give rights to other processes for that object). 
+At the end, some of the benefits and drawbacks of Access Control Matrix Models were discussed. 
