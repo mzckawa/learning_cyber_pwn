@@ -57,3 +57,22 @@ Today, I watched the video "Access Control: Modeling Access Control", also from 
 Also, an interesting thing to reflect upon was that, for the system, we are not the subject; rather, subjects are processes, and files are objects.
 At this module, we are going to explore the following rights: read, write, execute, append (it only allows you to add things to the file, but not to change anything that came before it, which may help prevent risks), own (allows you to give rights to other processes for that object). 
 At the end, some of the benefits and drawbacks of Access Control Matrix Models were discussed. 
+
+## October 19th, 2025. 
+
+Metadata is data about other data. 
+
+Each row of the access matrix is stored with the subject (Capability Lists), and each column is stored with the object (Access Control Lists). Example: 
+p | f: rwo | g: r
+
+The third way of storing information about subjects, rights, and objects is through a tuple (subject, right, object).
+
+ACL requires authentication, CAP does not, which means that CAP must be unforgeable and its propagation must be controlled. 
+
+Least privilege: “If you don’t need this right to do your job, you shouldn’t have this right.”
+
+CAP provides a finer-grained control of least privilege dynamics. 
+
+“Access review”- how to understand who has access to what
+
+ACL is better for access review of objects, and CAP is better for access review of subjects. Similarly, ACL is better for revocation on an object basis, and CAP is better for revocation on a subject basis. 
